@@ -84,9 +84,7 @@ Shader "Butadienetrail/input"
 				{
 					output =float3( _par,_par2,_par3);
 				}
-					float texWidth = 8;
-					float texhigh = 1;
-
+					
 					float xmod = 4*i.uv.x-frac(4*i.uv.x);
 
 					float4 retcol= float4 (pack(output, xmod),1);

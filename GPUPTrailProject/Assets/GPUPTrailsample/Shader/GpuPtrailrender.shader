@@ -227,8 +227,6 @@ Shader "Butadienetrail/GpuPtrailrender"
 
 				float intensity = 1;
 				
-				float texWidth =_texwidth;
-
 				float s =0.07;
 				float n =1;
 				float r = n*abs(sin(_Time.y+s*i.uv2.x));

@@ -22,8 +22,7 @@ Shader "Butadienetrail/GpuPtrailmemory"
 		Pass
 		{
 		
-			
-			 Name "Update"
+			Name "Update"
 
 			CGPROGRAM
 			#pragma vertex CustomRenderTextureVertexShader
