@@ -1,1 +1,2 @@
 # GPUPTrail
+シェーダとカスタムレンダーテクスチャによって構成されたトレイルレンダラーです。inputmaterialからトレイル群の挙動に関するパラメーター操作が、GpuPtrailrenderermaterialから見た目に関するパラメーター操作ができます。
