@@ -122,7 +122,6 @@ Shader "Butadienetrail/GpuPtrailrender"
 				
 				float xmod = fmod(intx,4);
 				float ymod = fmod(inty,4);
-
 				
 				float4 mpos1 = float4(unpack(intuv),1);
 				
