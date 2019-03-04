@@ -125,17 +125,11 @@ Shader "Butadienetrail/GpuPtrailrender"
 
 				
 				float4 mpos1 = float4(unpack(intuv),1);
-
-				float4 vpos1 =  mul(UNITY_MATRIX_V,mpos1);
-
+				
 				float4 mpos2 = float4(unpack(intuv+float2(_long*4/texWidth,0)),1);
 
-				float4 vpos2 = mul(UNITY_MATRIX_V,mpos2);
-				
 				float4 mpos3 = float4(unpack(intuv+float2(_long*8/texWidth,0)),1);
 
-				float4 vpos3 = mul(UNITY_MATRIX_V,mpos3);
-				
 				float3 mvec1 = normalize(mpos1.xyz-viewp);
 				float3 mvec2 = normalize(mpos2.xyz-viewp);
 				
